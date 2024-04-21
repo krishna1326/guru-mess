@@ -26,8 +26,12 @@ nav ul li{
     
 }
 
-@media only screen and (max-width: 600px){
-    .nav ul li{
-        display:none;
+@media(max-width: 767px) {
+    .container ul li a{
+        display: none;
     }
+    .container {
+        display: none;
+    }
+
 }
