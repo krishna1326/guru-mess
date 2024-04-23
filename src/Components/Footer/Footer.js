@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
 
                 <div className='link footer-col'>
-                    
+
                     <h4 className='heading'>Links</h4>
                     <ul>
                         <li><a href="/">Home</a></li>
@@ -26,19 +26,19 @@ const Footer = () => {
                         <li><a href="/">Testimonial</a></li>
                         <li><a href="/">Contact Us</a></li>
                     </ul>
-                    
-                    
+
+
                 </div>
 
                 <div className='menu footer-col'>
                     <h4>Menu</h4>
                     <ul>
-                       <li><a href="/">Our Dishes</a></li>
-                       <li><a href="/">Premium Menu</a></li>
+                        <li><a href="/">Our Dishes</a></li>
+                        <li><a href="/">Premium Menu</a></li>
                     </ul>
                 </div>
 
-                <div className='footer-col'>
+                <div className=' footer-col'>
                     <h4 className='heading'>Contact Us</h4>
                     <ul>
                         <li><a href="/">Foodie@gmail.com</a></li>
@@ -46,15 +46,16 @@ const Footer = () => {
                         <li><a href="/">Social Media</a></li>
                     </ul>
                     <div className='social_logo'>
-                    
-                    <FaFacebook />
-                    <FaInstagram />
-                    <FaTwitter />
-                    <FaWhatsapp />
-      <FaYoutube />
-      <FaEnvelope />
+
+                        <FaFacebook />
+                        <FaInstagram />
+                        <FaTwitter />
+                        <FaEnvelope />
+                        <FaWhatsapp />
+                        <FaYoutube />
+                        
                     </div>
-                
+
                 </div>
             </div>
 
@@ -62,7 +63,7 @@ const Footer = () => {
 
             <div className='copy row-2'>
                 <p>
-                &copy;copyright developed by <span>guru mess</span> | All rights reserved
+                    &copy;copyright developed by <span>guru mess</span> | All rights reserved
                 </p>
             </div>
         </div>

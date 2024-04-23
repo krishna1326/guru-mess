@@ -1,6 +1,6 @@
 .contact {
     margin: 80px auto;
-    max-width: 80%;
+    max-width: 90%;
     display: flex;
     align-content: center;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .contact-col h3 {
-    color: #000000;
+    color: #f39c12;
     font-weight: 500;
     font-size: 25px;
     display: flex;
@@ -29,7 +29,7 @@
 
 .contact-col p {
     max-width: 450px;
-    line-height: 1.6; /* Adjust line height for better readability */
+    line-height: 1.6; 
     font-size: 16px;
 }
 
@@ -42,6 +42,9 @@
 .contact-col ul li img {
     width: 25px;
     margin-right: 10px;
+}
+.contact-col ul li:hover{
+    color: #0c0c0c;
 }
 
 .contact form input,
@@ -60,18 +63,22 @@
 .contact-col span {
     display: block;
     margin: 20px 0;
-    color: #ff0000; /* Adjust color for error message */
+    color: #ff0000;
 }
 
-/* Update button styling */
-.btn {
-    color: #ffffff;
-    background-color: rgb(241, 118, 30);
-    border: none;
-    padding: 15px 30px;
+
+.contact .contact-col .btn {
+    background-color: #f39c12;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
     cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn.dark-btn {
@@ -87,4 +94,12 @@
 
 .contact.fade-in {
     opacity: 1;
+}
+
+@media(max-width:678){
+    .contact{
+        display: flex;
+        flex-direction: row;
+    }
+
 }
