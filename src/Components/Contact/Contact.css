@@ -1,4 +1,4 @@
-.contact{
+.contact {
     margin: 80px auto;
     max-width: 80%;
     display: flex;
@@ -7,11 +7,13 @@
     padding: 60px;
     font-weight: 400;
 }
-.contact-col{
+
+.contact-col {
     flex-basis: 50%;
-    color: #0c0c0c;   
+    color: #0c0c0c;
 }
-.contact-col h3{
+
+.contact-col h3 {
     color: #000000;
     font-weight: 500;
     font-size: 25px;
@@ -19,25 +21,31 @@
     align-items: center;
     margin-bottom: 20px;
 }
-.contact-col h3 img{
+
+.contact-col h3 img {
     width: 35px;
     margin-left: 10px;
 }
-.contact-col p{
+
+.contact-col p {
     max-width: 450px;
-    list-style: 0.3;
+    line-height: 1.6; /* Adjust line height for better readability */
     font-size: 16px;
 }
-.contact-col ul li{
+
+.contact-col ul li {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
-.contact-col ul li img{
+
+.contact-col ul li img {
     width: 25px;
     margin-right: 10px;
 }
-.contact form input,  .contact form textarea{
+
+.contact form input,
+.contact form textarea {
     display: block;
     width: 100%;
     background: #f6c673;
@@ -48,15 +56,35 @@
     margin-top: 5px;
     resize: none;
 }
-.contact-col span{
+
+.contact-col span {
     display: block;
     margin: 20px 0;
+    color: #ff0000; /* Adjust color for error message */
 }
-.contact-text button{
+
+/* Update button styling */
+.btn {
     color: #ffffff;
     background-color: rgb(241, 118, 30);
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
 }
-.btn.dark-btn{
-background-color:rgb(241, 118, 30); 
-color: #ffffff;
+
+.btn.dark-btn {
+    background-color: rgb(241, 118, 30);
+    color: #ffffff;
+}
+
+/* Add animation properties to contact elements */
+.contact {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.contact.fade-in {
+    opacity: 1;
 }

@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import { FaWhatsapp, FaYoutube, FaEnvelope, FaTwitter, FaFacebook, FaInstagram } from 'react-icons/fa';
+
 
 
 
@@ -7,7 +9,7 @@ const Footer = () => {
     return (
         <div className='footer container'>
             <div className='row-1'>
-                <div className="about footer-col">
+                <div className="about-1 footer-col">
                     <h4 className='heading'>FoodieWeb</h4>
                     <div className='content'>
                         <p>Indulge in a symphony of flavors, where each plate is a canvas for culinary excellence.</p>
@@ -43,6 +45,16 @@ const Footer = () => {
                         <li><a href="/">+64 7708171867</a></li>
                         <li><a href="/">Social Media</a></li>
                     </ul>
+                    <div className='social_logo'>
+                    
+                    <FaFacebook />
+                    <FaInstagram />
+                    <FaTwitter />
+                    <FaWhatsapp />
+      <FaYoutube />
+      <FaEnvelope />
+                    </div>
+                
                 </div>
             </div>
 
