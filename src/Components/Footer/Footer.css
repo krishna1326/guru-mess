@@ -2,16 +2,19 @@
     max-width: 300px;
 }
 .about .content:hover{
-    color: orange;
+    color: #f39c12;
 }
 .footer{
-    background-color: rgb(20, 20, 20);
+    background-color: #262626;
     color: white;
     width: 100%;
+    font-family: "Josefin Sans",sans-serif;
 }
 .row-1{
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 1px solid #ffffff;
+    
 }
 .footer-col{
     width: 20%;
@@ -43,11 +46,11 @@
 }
 
 .footer-col ul li a:hover{
-color: orange;
+color: #f39c12;
 padding-left: 8px;
 }
 .copy span{
-    color: orange;
+    color: #f39c12;
 }
 
 .footer .row-2{

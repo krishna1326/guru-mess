@@ -8,7 +8,7 @@ import cart from '../../Assets/cart.svg';
 
 const Hero = () => {
   return (
-    <div className='hero container ' data-aos="fade-right" data-aos-duration="1000">
+    <div className='hero container ' >
 
       <div className='hero-text'>
         <h1>Tasty and Healthy</h1>
