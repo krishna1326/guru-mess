@@ -7,7 +7,7 @@
 }
 body{
     background-color: #F5F5F5;
-    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans";
 }
 a{
     text-decoration: none;
@@ -16,15 +16,14 @@ a{
     cursor: pointer;    
 }
 a:hover{
-color: orange;
-text-decoration: underline;
+color: #f39c12;
 }
 li:hover{
-color: orange;
+color: #f39c12;
 }
 
 .btn:hover{
-    background-color: orange;
+    background-color: #f39c12;
     color: #FFF;
 }
 
