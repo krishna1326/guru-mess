@@ -33,10 +33,10 @@ const Contact = () => {
     };
 
     return (
-        <div className='contact container' data-aos="fade-up">
+        <div className='contact' data-aos="fade-up">
             <div className="contact-col">
                 <h3>send us a message <img src={msg_icon} alt="" /></h3>
-                <p>Feel free to reach out through the contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p>
+                {/* <p>Feel free to reach out through the contact form or find our contact information below. Your feedback, questions, and suggestions are important to us as we strive to provide exceptional service to our university community.</p> */}
                 <ul>
                     <li><img src={mail_icon} alt="" />maha@gmail.com</li>
                     <li><img src={phone_icon} alt="" />+9488457527</li>
@@ -55,6 +55,7 @@ const Contact = () => {
                 </form>
                 <span>{result}</span>
             </div>
+            
         </div>
     );
 }

@@ -58,6 +58,14 @@ padding-left: 8px;
     justify-content: center;
 }
 
+.row-1 .footer-col .social_logo{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: #f39c12;
+    /* border: #ffffff 1px solid; */
+}
+
 @media(max-width: 767px) {
     .footer-col {
         width: 100%;
